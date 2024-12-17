@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+
+nav {
     background-color: gray;
     width: 100%;
     height: 65px;
@@ -11,4 +12,79 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0px 35px;
+}
+
+.menu a {
+    color: #f03b3b;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px 24px;
+}
+
+.banner {
+    background-image: url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: green;
+    color: white;
+    position: relative;
+    top: 50%;
+    margin: auto;
+    width: 58%;
+}
+
+.news {
+    background-color: #ff2b85;
+    width: 100%;
+    height: 50px;
+
+}
+
+.news marquee {
+    color: rgb(236, 231, 221);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    text-shadow: 3px 3px 3px black;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.about {
+    padding: 150px 200px;
+    text-align: center;
+}
+.about h2{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+}
+
+.about p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 11px;
+}
+
+.about button {
+    background-color: rgb(255 43 133);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px blueviolet;
 }
