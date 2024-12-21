@@ -88,3 +88,114 @@ nav {
     font-weight: bold;
     box-shadow: 2px 2px 2px blueviolet;
 }
+.press{
+    background: url(/image/sir-simo-tPSMO_JTEow-unsplash.jpg);
+    width: 100%;
+    height: 450px;
+    padding: 150px 200px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+
+}
+.press h2{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    color: white;
+}
+.press p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    color: white;
+}
+.press button {
+    background-color: rgb(255 43 133);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px blueviolet;
+}
+.team{
+    background: url(/image/sir-simo-tPSMO_JTEow-unsplash.jpg);
+    width: 100%;
+    height: 450px;
+    padding: 150px 200px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+
+}
+.team h2{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    color: white;
+}
+.team p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    color: white;
+}
+.team button {
+    background-color: rgb(255 43 133);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px blueviolet;
+}
+.contact{
+    background-color: #ff2b85;
+    width: 100%;
+    height: 450px;
+    padding: 150px 200px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+
+}
+.contact h2{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    color: white;
+}
+.contact p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    color: white;
+}
+.contact button {
+    background-color: rgb(255 43 133);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px blueviolet;
+}
+    footer{
+        background: black;
+        width: 100%;
+        height: 400px;
+
+    }

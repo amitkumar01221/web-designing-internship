@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color:#ff8800;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0px 55px;
+    gap: 50px;
+
+
+}
+header .logo{
+    text-transform: uppercase;
+    color: white;
+    background-color: #f2a041;
+    line-height: 55px;
+    font-size: 18px;
+}
+.logo:hover{
+    background-color: #ff8800;
+} 
+.logo a{
+    display: inline block;
+} 
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner{
+    background: url(../img/bg.jpg);
+    width: 100%;
+    height: 450px;
+}
