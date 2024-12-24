@@ -217,6 +217,7 @@ nav {
     }
     .footer-content li a{
         text-decoration: none;
+        font-family: cursive;
         display: block;
         color: #d6d6d6;
         font-size: 15px;
@@ -229,6 +230,7 @@ nav {
     }
     .footer-content p{
         color: #d6d6d6;
+        font-family: cursive;
         font-size: 16px;
         line-height: 30px;
         margin: 20px 0;
