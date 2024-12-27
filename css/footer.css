@@ -4,13 +4,16 @@
     text-decoration: none;
     list-style: none;
     font-family: cursive;
+    box-sizing: border-box;
 
 }
 body{
     width: 100%;
     background-color: #121b25;
+    
 }
 footer{
+    width: 100%;
     padding: 80px 5% 70px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px,auto));

@@ -35,5 +35,33 @@ nav a{
 .banner{
     background: url(../img/bg.jpg);
     width: 100%;
-    height: 450px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1{
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 80px 5% 0px;
+
+
+}
+.banner input{
+    height: 38px;
+    background-color: black;
+    margin: auto;
+    width: 400px;
+    font-size: 17px;
+    padding: auto;
+
+}
+.banner p{
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 0px 5% 0px;
+}
+.banner .content{
+    text-align: center;
 }
