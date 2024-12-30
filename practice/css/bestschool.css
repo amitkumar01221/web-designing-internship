@@ -1,21 +1,34 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-header .container{
+
+header {
     width: 100%;
-    background-color:#ff8800;
+    background-color: #ff8800;
+    padding: 0 22px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 56px;
+}
+
+header .container {
+    background-color: #ff8800;
     height: 55px;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     padding: 0px 55px;
-    gap: 50px;
-    padding:0px 20px;
-
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1180px
 }
-header .logo{
+
+header .logo {
     text-transform: uppercase;
     color: white;
     background-color: #e67a00;
@@ -23,28 +36,44 @@ header .logo{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 20px;
     font-size: 18px;
-    margin-left: auto;
 }
-.logo:hover{
+
+.logo:hover {
     background-color: #ff8800;
-} 
-.logo a{
+}
+
+.logo a {
     display: inline block;
-} 
-nav a{
+
+}
+
+nav {
+    box-shadow: inset 0px -2px 0px #fff;
+    line-height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1px;
+}
+
+nav a {
     color: white;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
+
 }
-.banner{
+
+.banner {
     background: url(../img/bg.jpg);
     width: 100%;
     height: 500px;
     background-size: cover;
     background-position: center;
     padding-top: 150px;
+    margin-top: 55px;
+
 }
-.banner h1{
+
+.banner h1 {
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
@@ -57,19 +86,27 @@ nav a{
 
 
 }
-.banner input{
+
+.banner input {
     height: 38px;
     background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
     color: #ffffff;
-    width: 600px ;
+    width: 600px;
     font-size: 17px;
     padding: auto;
     padding-left: 10px;
-    border:medium none;
+    border: medium none;
+}
+
+.banner input::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    color: #999999;
+    word-spacing: 1px;
 }
 
 
-.banner p{
+.banner p {
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
@@ -79,45 +116,151 @@ nav a{
     font-size: 18px;
     padding: 0px 5% 0px;
 }
-.banner .content{
+
+.banner .content {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 20px;
+
 }
-.maindiv{
+
+.maindiv {
     width: 100%;
     height: fit-content;
     display: grid;
-    gap: 50px;
+    gap: 20px;
     justify-content: space-around;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 350px 350px 350px;
-    padding: 0px 5%;
+    grid-template-columns: 366px 366px 366px;
+    grid-template-rows: 247px 247px 247px;
+    padding: 0px 110px;
+
 
 
 }
-.maindiv .city{
-    border: 2px solid red;
-    
+
+.divheading {
+    margin: 0 5%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    word-spacing: 2px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+    color: #444444;
 }
-a img{
-    padding: 2px;
+
+.divheading p {
+    padding-bottom: 40px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.divheading h2 {
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.maindiv .city {
+    border: 1px solid #dddddddd;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 1px;
+
+}
+
+a img {
     width: 100%;
     height: 100%;
 
 }
-.city .cityname{
+
+.city .cityname {
     color: white;
     text-align: center;
-    position:absolute;
-    margin: 300px 80px 0px 140px;
-    font-size: large;
+    position: absolute;
+    margin: 200px 0px 0px 145px;
     font-weight: 700;
     font-family: sans-serif;
     letter-spacing: 2px;
+    padding: 6px 4px;
+    font-size: 1.2em;
 
 }
-a img :hover{
-    filter: grayscale(4);
+
+.btn {
+    color: white;
+    background-color: #ff8800;
+    border-radius: 50px;
+    height: 55px;
+    width: 200px;
+    border: none;
+    border: 1px solid #bbb9b9;
+    margin: 40px;
+    font-size: 24px;
+    text-align: center;
+    text-wrap-mode: nowrap;
+    font-family: sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #e67a00;
+
+}
+
+.info {
+    padding: 50px 5%;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.info p em {
+    font-style: italic;
+}
+
+.info p em span {
+    font-size: 85%;
+}
+
+.info p {
+    color: #666666;
+    font-size: 24px;
+    font-family: "opensans-italic";
+    font-weight: 400;
+}
+
+footer {
+
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 40px 22px 80px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footerDiv div a {
+    text-decoration: none;
+    color: #ff8800;
+}
+
+.footerDiv div a:hover {
+    color: #b35f00;
+    transform: all 1.5s;
+}
+
+footer div p {
+    color: #666666;
+}
+
+.footerDiv {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 55px;
+    width: 1180px;
 }
