@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #ff8800;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 111px;
+    gap: 35px;
+    position: fixed;
+}
+nav .logo{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    background-color: #e67a00;
+    padding: 20px;
+}
+nav .logo a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+ box-shadow: inset 0px -2px 0px #fff;
+ line-height: 56px;
+}
+.menu a{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    background: url(/practice/img/bg.jpg);
+    width: 100%;
+    height: 500px;
+}
+.banner .a{
+    text-align: center;
+    padding-top: 150px;
+}
+.banner .a h2{
+    font-size: 43px;
+    color: white;
+    font-family: cursive;
+}
+.banner .a h5{
+    font-size: 20px;
+    color: white;
+    font-family:fantasy;
+    margin-bottom: 14px;
+
+}
+.banner input{
+    width: 542px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: #000000c9;
+    padding-left: 10px;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px yellow;
+}
+::placeholder{
+    color: white;
+
+}
+.h{
+    text-align: center;
+    margin-top: 50px;
+}
+.h h1{
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 8px;
+}
+.h h6{
+    font-size: 22px;
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+.abc{
+    width: 366px;
+    height: 247px;
+    float: left;
+    margin: 20px;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid#ddd;
+}
+.abc img{
+    height: 100%;
+    width: 100%;
+}
+.abc h2{
+    text-align: center;
+    margin-top: -39px;
+    color: white;
+    font-family: cursive;
+}
+.btn{
+    color: white;
+    height: 40px;
+    width: 140px;
+    background-color: #e67a00;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 80px;
+    border: none;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.info{
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-family: opensans-italic;
+}
