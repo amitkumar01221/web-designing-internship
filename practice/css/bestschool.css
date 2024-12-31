@@ -129,8 +129,9 @@ nav a {
     width: 100%;
     height: fit-content;
     display: grid;
-    gap: 20px;
-    justify-content: space-around;
+    row-gap: 20px;
+    column-gap: 40px;
+    justify-content: center;
     grid-template-columns: 366px 366px 366px;
     grid-template-rows: 247px 247px 247px;
     padding: 0px 110px;
@@ -166,6 +167,7 @@ nav a {
     padding: 4px;
     box-sizing: border-box;
     border-radius: 1px;
+    
 
 }
 
