@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: blue;
+            font-variant: xx-small;
+        }
+        p::first-letter{
+            color: #ff0000;
+            font-size: xx-large;
+
+        }
+        h1::before{
+            content: url(./image/137-96582.jpg);
+        }
+        h2::after{
+            content:"hello every one";
+        }
+
+        p::after{
+            content: url(./image/about-foodpanda-1920x539.jpeg);
+
+        }
+    
+    </style>
+</head>
+<body>
+    <p style="font-size: 18px; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsam illo accusamus, modi numquam optio nam? Eligendi saepe praesentium culpa?</p>
+    <h1>hello how are you</h1>
+    <h2>hello how are you</h2>
+    <a href="#" target="_blank">hello</a>
+    
+</body>
+</html>

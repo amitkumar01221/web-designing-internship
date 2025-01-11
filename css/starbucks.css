@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    cursor: pointer;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 1.2;
+    margin-left: auto;
+}
+.btn-dark-outline{
+    border-color: #000;
+    color: #000;
+    font-weight: bold;
+}
+.btn-dark{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-dark:hover{
+    background-color: #333;
+}
+.btn-dark-outline:hover{
+    background: rgba(0, 0, 0, 0.06);
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.navbar-container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+}
+.navbar a{
+    color: black;
+    font-size: 14px;
+}
+.navbar a:hover{
+    color: #00754a;
+}
+.navbar-nav-left{
+  text-transform: uppercase;
+  flex: 1;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.navbar-nav-right i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.product{
+    margin-top: 32px;
+    display:flex;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .product img{
+    max-width: 800px;
+    min-width: 400px;
+    height: auto;
+    align-items: center;
+} */
+ .product img{
+    max-width: 50%;
+    align-items: center;
+ }
+.product div{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    border: 2px solid red;
+    padding: 70px 100px;
+}
+.product .product-items{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: auto;
+
+}
+.contents{
+    text-align: center;
+    text-wrap: wrap;
+    background-color: #fff;
+}
+.footer-items{
+    display:flex;
+    list-style: none;
+    gap: 50px;
+    padding: 0 12%;
+
+}
+.footer-items:first-child{
+    font-size: medium;
+    font-weight: 700;
+    color: red;
+}
+.social-links{
+    display: flex;
+    margin-top: 5px;
+}
