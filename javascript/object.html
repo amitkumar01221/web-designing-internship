@@ -1,0 +1,31 @@
+<script>
+    let a = {
+        fnamea: "vikas",
+        lname: "jain",
+        age: 23,
+        email: "vikas@gmail.com",
+
+        favMovie: ['dhoom', 'splay', 'money hiest'],
+
+        living: {
+            city: "mainpuri",
+            country: "India"
+        },
+
+        salary: function() {
+            return 25000;
+        },
+
+        fullname: function() {
+            fname = "raj" // local
+            // return this.fname+ " "+ this.lname;
+            return this.fname
+        }
+    }  // end  object //
+
+
+    document.write(a)
+    document.write(JSON.stringify(a))
+    document.write(a.fname,"<br>");
+    document.write(a.fullname())
+</script>
